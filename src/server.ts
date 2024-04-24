@@ -11,7 +11,7 @@ const route = Router()
 app.use(express.json())
 
 route.get('/', (req: Request, res: Response) => {
-  res.json({ message: 'Teste - Backend Lemon - Elegibilidade' })
+  res.json({ message: 'Backend - Elegibilidade' })
 })
 
 
